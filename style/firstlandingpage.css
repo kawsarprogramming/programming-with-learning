@@ -7,6 +7,10 @@
 }
 /*Header start */
 /* shared styles */
+.secondary-bg{
+    background-color: #FFF8F3
+;
+}
 .text-primary{
     color: #FD6E0A;
 }
@@ -26,7 +30,15 @@
     background-image:url(../images/developer.png), url(../images/header_bg.png);
     background-repeat: no-repeat;
     background-position: top left, bottom right ;
-
+}
+.section-ttile{
+    font-size: 35px;
+    font-weight: bold;
+    color: #474747;
+}
+.section-description{
+    font-size: 18px;
+    color: #474747;
 }
 /* Nav styles */
 nav{
@@ -35,7 +47,6 @@ nav{
     justify-content: space-between;
     margin: 50px 200px;
 }
-
 nav ul{
     display: flex;
     align-items: center;
@@ -74,9 +85,28 @@ nav li a{
 .banner-profie-pic{
     width:580px;
 }
+/* Main Styles */
+main{
+    max-width:1140px ;
+    margin: auto;
+}
 
+/* About Styles */
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 130px;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
 
+.item-description{
+    font-weight: bold;
+    font-size: 20px;
 
-
+}
 
 /* footer start */
