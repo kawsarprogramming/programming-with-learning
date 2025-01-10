@@ -10,13 +10,22 @@
 .text-primary{
     color: #FD6E0A;
 }
-
+.dark-2{
+    color: #474747;
+}
 
 /* Nav styles */
 nav{
     display: flex;
 }
 
+nav ul li{
+    list-style:none ;
+}
+nav li a{
+    text-decoration: none;
+    font-size: 20px;
+}
 .nav-title{
     font-weight: 800;
     font-size: 45px;
