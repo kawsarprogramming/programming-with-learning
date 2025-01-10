@@ -1,9 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+/* for font import */
+.work-sans-normal {
+  font-family: "Work Sans", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+ 
+}
 /*Header start */
+/* shared styles */
+.text-primary{
+    color: #FD6E0A;
+}
 
 
+/* Nav styles */
+nav{
+    display: flex;
+}
 
-
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+}
 
 
 /* main Start */
