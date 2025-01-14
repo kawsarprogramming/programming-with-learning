@@ -26,6 +26,7 @@
     padding:18px 35px;
     font-size: 20px ;
 }
+
 .header{
     background-image:url(../images/developer.png), url(../images/header_bg.png);
     background-repeat: no-repeat;
@@ -40,7 +41,6 @@
     font-size: 18px;
     color: #474747;
 }
-
 
 /* Nav styles */
 nav{
@@ -122,11 +122,11 @@ border: 1px solid black;
     font-family: sans-serif;
     color: #757575;
     text-align: center;
-    
 }
 .about-items{
     display: flex;
-    justify-content: space-around;   
+    justify-content: space-around;  
+    padding-bottom: 8px; 
 }
 
 .about-items .about-item .item-title {
@@ -135,8 +135,7 @@ border: 1px solid black;
     font-size: 20px;
     font-weight: normal;
     margin-bottom: 0px;
-    padding-bottom: 0px;
-
+    padding-bottom: px;
 }
 .about-items .about-item .item-description {
     margin-top: 8px;
@@ -174,7 +173,6 @@ border: 1px solid black;
     display: flex;
     border-radius: 5px;
     background-color: white;
-   
     justify-content: space-around;
     gap: 30px;
 }
@@ -204,10 +202,13 @@ text-align: center;
 color: #181818;
 margin: 100px;
 }
+
+
 .resume {
     display: flex;
     justify-content: space-around;
-    gap: 30px;
+    gap: 35px;
+    align-items: center;
 }
 .resume .education .title h3{
     font-weight: bold;
@@ -223,7 +224,7 @@ margin: 100px;
     font-size: 25px;
     font-weight: bold;
     color: #474747;
-    padding: 0px;
+    padding-bottom: 10px;
     margin: 10px 0;
 }
 .resume .education .eduction-title h5{
@@ -239,16 +240,58 @@ margin: 100px;
     font-size: 16px;
     font-weight: normal;
     color: #474747;
-    padding: 0px;
+    padding-bottom: 15px;
     margin: 10px 0;
 }
-
+/* Experience Section */
 
 .resume .experience .title h3{
     font-weight: bold;
     font-family: sans-serif;
     font-size: 30px;
     color: #474747;
+    padding-top:  0px;
+    margin bottom: 30px;
+}
+
+.resume .experience .experience-title h4{
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: #474747;
+    padding-bottom: 10px;
+    margin: 10px 0;
+}
+.resume .experience .experience-title h5{
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #474747;
+    padding: 0px;
+    margin: 10px 0;
+}
+.resume .experience .experience-title p{
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    color: #474747;
+    padding-bottom: 15px;
+    margin: 10px 0;
+}
+
+.btn-download{
+    text-align: center;
+
+}
+.btn-download .cv-download {
+    background-color: #FD6E0A;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+    padding:18px 35px;
+    font-size: 20px ;
+    align-items: center;
 }
 
 /* footer start */
