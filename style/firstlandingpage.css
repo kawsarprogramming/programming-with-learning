@@ -31,7 +31,7 @@
     background-repeat: no-repeat;
     background-position: top left, bottom right ;
 }
-.section-ttile{
+.section-title{
     font-size: 35px;
     font-weight: bold;
     color: #474747;
@@ -40,6 +40,8 @@
     font-size: 18px;
     color: #474747;
 }
+
+
 /* Nav styles */
 nav{
     display: flex;
@@ -94,19 +96,82 @@ main{
 /* About Styles */
 .about{
     border-radius: 10px;
-    padding: 130px 150px;
+    padding: 130px 156px;
     text-align: center;
     margin-top: 130px;
 }
+
+.about-me {
+background-color: white;
+/* padding: 131px 156px; */
+border: 1px solid black;
+}
+
+.about-me .section-title {
+    padding: 0px;
+    margin: 0px;
+    color:#181818;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.about-me .section-title .section-description{
+    font-size: 18px;
+    font-weight: normal;
+    font-family: sans-serif;
+    color: #757575;
+    text-align: center;
+    
+}
 .about-items{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-around;   
 }
 
-.item-description{
-    font-weight: bold;
+.about-items .about-item .item-title {
+    color: #757575;
+    font-family: sans-serif;
     font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
 
 }
+.about-items .about-item .item-description {
+    margin-top: 8px;
+    margin-bottom: 0px;
+    color: #474747;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0px;
+}
+/* Section What i do styles */
+.section-whatido {
+    margin: 130px;
+    text-align: center;
+}
+
+.section-whatido .what-i-do h3{
+    font-size: 35px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #181818;
+    padding: 0px;
+}
+.section-whatido p{
+    font-size: 18px;
+    font-weight: normal;
+    font-family: sans-serif;
+    color: #757575;
+    margin-top: 8px;
+    padding-top: 0px;
+}
+
+/* Sklills Section */
+
+
+
 
 /* footer start */
