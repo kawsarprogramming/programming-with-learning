@@ -1,4 +1,6 @@
+
 /* for font import */
+
 .work-sans-normal {
   font-family: "Work Sans", serif;
   font-optical-sizing: auto;
@@ -8,8 +10,7 @@
 /*Header start */
 /* shared styles */
 .secondary-bg{
-    background-color: #FFF8F3
-;
+    background-color: #FFF8F3;
 }
 .text-primary{
     color: #FD6E0A;
@@ -47,7 +48,8 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 50px 200px;
+    margin: 0px 200px;
+    padding: 0px;
 }
 nav ul{
     display: flex;
@@ -281,6 +283,7 @@ margin: 100px;
 
 .btn-download{
     text-align: center;
+    margin-bottom: 130px;
 
 }
 .btn-download .cv-download {
@@ -294,4 +297,43 @@ margin: 100px;
     align-items: center;
 }
 
+
 /* footer start */
+
+.footer{
+    background-color: #FFF8F3;
+    height: auto;
+    display: flex;
+    padding: 130px 230px;
+    gap: 50px;
+}
+.footer .footer-title  img{
+    height: 20px;
+    width: auto;
+    justify-content: space-around;
+}
+
+.footer .footer-title h3{
+    font-family: sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+
+.footer .footer-title p{
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #474747;
+}
+
+.footer .footer-title .input {
+    display: block;
+    row-gap: 30px;
+    /* padding-top: 30px; */
+}
+.footer .footer-title .input input{
+   background-color: white;
+   border: 1px solid black;
+   borderh
+}
